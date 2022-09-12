@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#menu_cabecalho{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#main_container {
+    
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+#ul_cart{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#sessao_footer{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.span_list{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.span_total{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.105);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.span_total:hover{
+
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.lista{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background: rgba(221, 214, 214, 0.197);
+    padding: 20px;
+    margin-top: 20px;  
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.lista:hover{
+
+    background-color:rgba(0, 0, 0, 0.105);
+    color: rgb(16, 16, 16);
+    border-radius: 10px;
+
+
+}
+
+.button_finish{
+
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(4, 203, 140);
+    border: 1px solid white;
+    text-decoration: none;
+
+}
+
+.button_finish:hover{
+
+    background-color: rgba(4, 203, 140, 0.822);
+    
+
+}
+
+.button_finish:focus{
+
+    border: 1px solid black;
+    
+
+}
